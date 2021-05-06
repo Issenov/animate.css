@@ -1,10 +1,10 @@
 @font-face {
     font-family: "flaticon";
-    src: url("./flaticon.ttf?e5da76f21a6809f083b18a9ce574b9d5") format("truetype"),
-url("./flaticon.woff?e5da76f21a6809f083b18a9ce574b9d5") format("woff"),
-url("./flaticon.woff2?e5da76f21a6809f083b18a9ce574b9d5") format("woff2"),
-url("./flaticon.eot?e5da76f21a6809f083b18a9ce574b9d5#iefix") format("embedded-opentype"),
-url("./flaticon.svg?e5da76f21a6809f083b18a9ce574b9d5#flaticon") format("svg");
+    src: url("https://issenov.github.io/miobest/flaticon.ttf?e5da76f21a6809f083b18a9ce574b9d5") format("truetype"),
+url("https://issenov.github.io/miobest/flaticon.woff?e5da76f21a6809f083b18a9ce574b9d5") format("woff"),
+url("https://issenov.github.io/miobest/flaticon.woff2?e5da76f21a6809f083b18a9ce574b9d5") format("woff2"),
+url("https://issenov.github.io/miobest/flaticon.eot?e5da76f21a6809f083b18a9ce574b9d5#iefix") format("embedded-opentype"),
+url("https://issenov.github.io/miobest/flaticon.svg?e5da76f21a6809f083b18a9ce574b9d5#flaticon") format("svg");
 }
 
 i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
