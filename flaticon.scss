@@ -1,0 +1,29 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?e5da76f21a6809f083b18a9ce574b9d5") format("truetype"),
+url("./flaticon.woff?e5da76f21a6809f083b18a9ce574b9d5") format("woff"),
+url("./flaticon.woff2?e5da76f21a6809f083b18a9ce574b9d5") format("woff2"),
+url("./flaticon.eot?e5da76f21a6809f083b18a9ce574b9d5#iefix") format("embedded-opentype"),
+url("./flaticon.svg?e5da76f21a6809f083b18a9ce574b9d5#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "play-button": "\f101",
+);
+
+.flaticon-play-button:before {
+    content: map-get($flaticon-map, "play-button");
+}
